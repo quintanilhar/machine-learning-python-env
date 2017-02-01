@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t python-machine-learning ../
+docker build -t python-machine-learning .
