@@ -1,1 +1,1 @@
-web: jupyter notebook --notebook-dir=notebooks --ip='*' --port=8888 --no-browser
+web: jupyter notebook --config-dir=./ --notebook-dir=notebooks --ip='*' --port=8888 --no-browser
