@@ -1,1 +1,1 @@
-web: jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=$PORT --no-browser
+web: jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=`echo $PORT` --no-browser
